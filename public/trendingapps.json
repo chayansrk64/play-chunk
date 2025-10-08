@@ -1,0 +1,219 @@
+[
+  {
+     
+     "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    "title": "SnapPic Editor",
+    "companyName": "PixelWave Studios",
+    "id": 1,
+    "description": "A fast and creative photo editing app with AI-powered filters and retouch tools.",
+    "size": 85,
+    "reviews": 2300,
+    "ratingAvg": 4.5,
+    "downloads": "1.5M",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1280 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    "title": "TaskMate",
+    "companyName": "NextGen Apps",
+    "id": 2,
+    "description": "Organize your daily tasks and projects with reminders and smart scheduling.",
+    "size": 42,
+    "reviews": 1800,
+    "ratingAvg": 4.2,
+     "downloads": "1M",
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 790 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+    "title": "FitTrack Pro",
+    "companyName": "ActiveZone Ltd.",
+    "id": 3,
+    "description": "Track your workouts, calories, and steps with real-time performance analytics.",
+    "size": 65,
+    "reviews": 3100,
+    "ratingAvg": 4.7,
+     "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 2220 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308",
+    "title": "NoteFlow",
+    "companyName": "SoftTree Labs",
+    "id": 4,
+    "description": "A minimalist note-taking app with markdown support and cloud sync.",
+    "size": 38,
+    "reviews": 950,
+    "ratingAvg": 4.4,
+     "downloads": "1.2M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1506765515384-028b60a970df",
+    "title": "MusicVibe",
+    "companyName": "Beatify Inc.",
+    "id": 5,
+    "description": "Stream millions of songs and create your custom playlists with friends.",
+    "size": 120,
+    "reviews": 6400,
+    "ratingAvg": 4.6,
+     "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 310 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1100 },
+      { "name": "5 star", "count": 4240 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe",
+    "title": "ShopSmart",
+    "companyName": "DealHunter Ltd.",
+    "id": 6,
+    "description": "Find daily deals and compare prices across multiple online stores easily.",
+    "size": 54,
+    "reviews": 2700,
+    "ratingAvg": 4.1,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 240 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 720 },
+      { "name": "5 star", "count": 1140 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "title": "WeatherNow",
+    "companyName": "SkyNet Tech",
+    "id": 7,
+    "description": "Accurate weather forecasts, radar maps, and real-time alerts for your area.",
+    "size": 49,
+    "reviews": 3200,
+    "ratingAvg": 4.3,
+    "downloads": "2.5M",
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1770 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1517842645767-c639042777db",
+    "title": "LangLearn",
+    "companyName": "EduSmart Global",
+    "id": 8,
+    "description": "Learn languages with interactive lessons, pronunciation tests, and games.",
+    "size": 77,
+    "reviews": 4100,
+    "ratingAvg": 4.8,
+    "downloads": "3.2M",
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 3240 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1523475496153-3e23b2575c70",
+    "title": "TravelMate",
+    "companyName": "GlobalGo Technologies",
+    "id": 9,
+    "description": "Plan trips, book hotels, and explore destinations with AI-based suggestions.",
+    "size": 90,
+    "reviews": 2200,
+    "ratingAvg": 4.5,
+     "downloads": "2.5M",
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 260 },
+      { "name": "4 star", "count": 580 },
+      { "name": "5 star", "count": 1120 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1500534314209-a25db9f44c3a",
+    "title": "MindEase",
+    "companyName": "Calmify Co.",
+    "id": 10,
+    "description": "Meditation and relaxation app with guided sessions and sleep stories.",
+    "size": 61,
+    "reviews": 3700,
+    "ratingAvg": 4.9,
+    "downloads": "1.5M",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 3000 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1481277542470-605612bd2d61",
+    "title": "FinanceHero",
+    "companyName": "MoneyMind Ltd.",
+    "id": 11,
+    "description": "Track expenses, set budgets, and analyze your spending patterns easily.",
+    "size": 58,
+    "reviews": 1950,
+    "ratingAvg": 4.3,
+    "downloads": "4.5M",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 280 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 910 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1509395176047-4a66953fd231",
+    "title": "CodeCraft",
+    "companyName": "DevBoosters",
+    "id": 12,
+    "description": "A coding practice platform with challenges, projects, and leaderboard rankings.",
+    "size": 73,
+    "reviews": 5000,
+    "ratingAvg": 4.9,
+    "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 3910 }
+    ]
+  }
+]
