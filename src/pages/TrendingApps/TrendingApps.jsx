@@ -27,7 +27,7 @@ const TrendingApps = () => {
                 }
             </div>
 
-            <div className='text-center mt-8'><Link className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] px-4 py-2 rounded'>Show All</Link></div>
+            <div className='text-center mt-8'><Link to='/apps' className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] px-4 py-2 rounded'>Show All</Link></div>
 
         </div>
     );

@@ -3,7 +3,7 @@ import { Download } from 'lucide-react';
 import { Star } from 'lucide-react';
 
 const TrendingAppsCard = ({app}) => {
-    console.log(app);
+    // console.log(app);
     return (
         <div className='shadow bg-white rounded-lg p-4'>
             <div className='min-w-[316px] h-[316px] mx-auto'>
