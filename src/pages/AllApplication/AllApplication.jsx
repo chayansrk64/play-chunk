@@ -55,9 +55,15 @@ const AllApplication = () => {
             </div>
             {/* all cards */}
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 max-w-[1440px] mx-auto'>
-                {
+               {
+                filteredApps.length > 0 ? ( 
                     filteredApps.map(app => <TrendingAppsCard app={app} key={app.id}></TrendingAppsCard>)
-                }
+                ) : (
+                        <div className='col-span-full text-center py-8'>
+                            <p className='text-2xl text-[#627382]'>No apps found!</p>
+                        </div>
+                    )
+               }
             </div>
 
             </div>
