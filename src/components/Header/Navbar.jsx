@@ -1,8 +1,29 @@
 import React from 'react';
+import logo from '../../assets/logo.png'
+import { Link, NavLink } from 'react-router';
+import { Github } from 'lucide-react';
+ 
 
 const Navbar = () => {
+
+    
+
+    const links = <>
+        <NavLink to='/'>
+        {({isActive}) => (<li className={isActive ? "bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-semibold me-6" : "text-black-500 font-semibold me-6"}>Home</li>)}
+        </NavLink>
+        <NavLink to='/apps'>
+        {({isActive}) => (<li className={isActive ? "bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-semibold me-6" : "text-black-500 font-semibold me-6"}>Apps</li>)}
+        </NavLink>
+        <NavLink to='/installation'>
+        {({isActive}) => (<li className={isActive ? "bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-semibold me-6" : "text-black-500 font-semibold me-0"}>Installation</li>)}
+        </NavLink>
+        
+    </>
+
     return (
-        <div className="navbar bg-base-100 shadow-sm">
+        <div className='bg-base-100 shadow-sm'>
+        <div className="navbar  max-w-[1440px] mx-auto">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -11,37 +32,20 @@ const Navbar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a>Item 1</a></li>
-        <li>
-          <a>Parent</a>
-          <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </li>
-        <li><a>Item 3</a></li>
+        {links}
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+    <Link to="/" className=" text-xl font-semibold flex items-center"> <img className='w-[40px]' src={logo} alt="" /> <span>Play Chunk</span></Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><a>Item 1</a></li>
-      <li>
-        <details>
-          <summary>Parent</summary>
-          <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </details>
-      </li>
-      <li><a>Item 3</a></li>
+       {links}
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Button</a>
+    <a href='https://github.com/chayansrk64/' className="flex items-center bg-gradient-to-r from-[#632EE3] to-[#9F62F2] px-3 py-2 rounded text-white font-semibold"><Github /> Contribute</a>
   </div>
+</div>
 </div>
     );
 };
