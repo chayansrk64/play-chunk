@@ -3,3 +3,9 @@
 @plugin "daisyui" {
    themes: dark --default, light --prefersdark;
  }
+
+ body {
+    background-color: #f5f5f5;
+    max-width: 1600px;
+    margin: 0 auto;
+}
