@@ -3,6 +3,7 @@ import Root from "../layouts/Root";
 import Home from "../pages/Home/Home";
 import AllApplication from "../pages/AllApplication/AllApplication";
 import AppDetails from "../pages/AppDetails/AppDetails";
+import ErrorPage from "../pages/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
     {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
                 Component: AppDetails
             }
         ]
+    },
+    {
+        path: '*',
+        Component: ErrorPage
     }
 ])
 

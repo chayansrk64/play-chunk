@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import useTrendingApps from '../../hooks/useTrendingApps';
 import { useParams } from 'react-router';
 import downloads from '../../assets/icon-downloads.png'
 import ratings from '../../assets/icon-ratings.png'
 import reviews from '../../assets/icon-review.png'
+
+import { ToastContainer, toast } from 'react-toastify';
 
 import Loading from '../../components/Loading/Loading';
 
@@ -51,19 +53,23 @@ const data = [
 ];
 
 
-
- 
  
 
 const AppDetails = () => {
+    const [install, setInstall] = useState(false)
     const {trendingApps, loader} = useTrendingApps()
     // console.log(trendingApps);
     const {id} = useParams()
 
     const appData = trendingApps.find(app => app.id === parseInt(id))
-    console.log(appData);
+    // console.log(appData);
 
     
+    const handleInstallBtn = e => {
+        setInstall(true)
+        toast("App Installed!");
+
+    }
      
 
     if(loader){
@@ -105,7 +111,8 @@ const AppDetails = () => {
                     </div>
                    </div>
 
-                   <button className='btn bg-green-500 text-white text-lg'>Install Now ({appData.size}) MB</button>
+                   <button onClick={() => handleInstallBtn()} className='btn bg-green-500 text-white text-lg'>{install ? "Installed" : `Install Now (${appData.size}) MB`} </button>
+                    <ToastContainer />
 
                 </div>
             </div>
@@ -144,7 +151,7 @@ const AppDetails = () => {
             <div className='max-w-[1440px] mx-auto lg:gap-10 py-10 mt-12 '>
                 <h3 className='text-xl font-semibold mb-4 px-4 lg:px-0'>Description</h3>
                 {
-                    appData.description.map(p => <p className='mb-[20px] px-4'>{p}</p>)
+                    appData.description.map((p, index) => <p className='mb-[20px] px-4' key={index}>{p}</p>)
                 }
                 {/* <p>{appData.description}</p> */}
             </div>
