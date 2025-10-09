@@ -73,7 +73,7 @@ const AppDetails = () => {
     return (
         <div className=''>
 
-             <div className='max-w-[1440px] mx-auto flex items-center gap-5 lg:gap-10 py-10'>
+             <div className='max-w-[1440px] mx-auto flex flex-col lg:flex-row items-center gap-5 lg:gap-10 py-10'>
                 {/* image */}
                 <div>
                     <img className='w-[350px] h-[350px]' src={appData.image} alt="" />
@@ -114,11 +114,11 @@ const AppDetails = () => {
 
             {/* chart */}
 
-            <div className='w-[1240px] h-[500px] mx-auto'>
+            <div className='max-w-[1240px] h-[500px] mx-auto'>
 
                 <h3 className='text-3xl font-semibold'>Ratings</h3>
 
-                <ResponsiveContainer width="100%" height="100%">
+        <ResponsiveContainer width="100%" height="100%">
         <ComposedChart
           layout="vertical"
           width={500}
@@ -132,11 +132,21 @@ const AppDetails = () => {
           <Tooltip />
          
           <Area dataKey="amt" fill="#8884d8" stroke="#8884d8" />
-          <Bar dataKey="pv" barSize={20} fill="#413ea0" />
+          <Bar dataKey="pv" barSize={20} fill="#ff8811" />
           <Line dataKey="uv" stroke="#ff7300" />
         </ComposedChart>
       </ResponsiveContainer>
  
+            </div>
+
+
+
+            <div className='max-w-[1440px] mx-auto lg:gap-10 py-10 mt-12 '>
+                <h3 className='text-xl font-semibold mb-4 px-4 lg:px-0'>Description</h3>
+                {
+                    appData.description.map(p => <p className='mb-[20px] px-4'>{p}</p>)
+                }
+                {/* <p>{appData.description}</p> */}
             </div>
         
  

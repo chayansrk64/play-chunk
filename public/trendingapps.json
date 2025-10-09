@@ -1,11 +1,14 @@
 [
   {
-     
-     "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+    "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
     "title": "SnapPic Editor",
     "companyName": "PixelWave Studios",
     "id": 1,
-    "description": "A fast and creative photo editing app with AI-powered filters and retouch tools.",
+    "description": [
+      "SnapPic Editor is a next-generation photo editing tool crafted for creators who value both speed and precision. It offers an extensive suite of AI-driven features that automatically enhance brightness, sharpness, and tone without compromising image quality. Users can access an intuitive layer system, advanced color grading, and smart masking tools that adapt to each photo’s subject. Whether you’re editing portraits, landscapes, or product shots, SnapPic provides real-time previews and one-click enhancements. With social media integration, cloud syncing, and non-destructive editing, it ensures a smooth workflow from start to finish. Its modern interface caters to both professionals and beginners, making photo editing faster, smarter, and more enjoyable.",
+      "SnapPic Editor revolutionizes digital photography by merging artificial intelligence with human creativity. Its smart auto-correction system detects facial features, lighting conditions, and object details to provide tailored enhancement suggestions. Users can fine-tune results with customizable sliders, apply cinematic filters, and create stunning visual compositions with ease. The app supports RAW file editing, batch processing, and seamless export options for multiple formats. SnapPic’s lightweight engine ensures ultra-fast performance even on lower-end devices. With built-in tutorials, a vibrant community, and regular feature updates, it’s more than an editor—it’s a creative hub for visual storytellers who want complete control over their art.",
+      "SnapPic Editor is designed to turn every photo into a masterpiece with intelligent tools that learn from your editing habits. The software’s adaptive AI analyzes your workflow to offer smart recommendations that match your preferred style. You can effortlessly adjust tones, remove blemishes, and balance colors while preserving natural texture. Its cloud integration and version history keep your edits safe and organized. The clean interface, dark mode, and keyboard shortcuts enhance productivity during long editing sessions. Whether for professional photography or social media visuals, SnapPic ensures your work looks polished, authentic, and visually striking every time."
+    ],
     "size": 85,
     "reviews": 2300,
     "ratingAvg": 4.5,
@@ -23,11 +26,15 @@
     "title": "TaskMate",
     "companyName": "NextGen Apps",
     "id": 2,
-    "description": "Organize your daily tasks and projects with reminders and smart scheduling.",
+    "description": [
+      "TaskMate is your ultimate productivity partner that helps streamline your daily tasks and boost efficiency. It combines smart scheduling, habit tracking, and AI reminders to keep your life organized. Users can categorize personal and professional goals, prioritize deadlines, and visualize progress through intuitive dashboards. The minimalist interface ensures distraction-free focus, while real-time syncing keeps your to-do lists accessible across all devices. Integrated with Google Workspace and Slack, TaskMate makes collaboration seamless. Whether managing projects, assignments, or errands, TaskMate adapts to your workflow and provides meaningful insights that keep you productive every day.",
+      "TaskMate redefines task management by offering a powerful yet easy-to-use system that grows with you. Its intelligent assistant helps identify high-priority items and automatically reschedules unfinished tasks. Users can set recurring reminders, assign tasks to team members, and track completion statistics. With built-in motivational features like streak counters and achievement badges, TaskMate keeps productivity fun and engaging. Its secure cloud architecture ensures that your data is always safe and synced. Whether you’re organizing study sessions, managing a team, or simply planning your day, TaskMate helps you stay consistent and accomplish more effortlessly.",
+      "TaskMate is designed for individuals and teams who value structure and clarity in their workflow. The app’s dynamic planning tools help you break complex goals into actionable steps, complete with visual progress tracking. You can integrate calendars, attach files, and even automate task creation based on your daily habits. The interface is fully customizable, allowing users to tailor their productivity environment. With dark mode, real-time updates, and data analytics, TaskMate transforms your daily planning into a powerful, stress-free routine. It’s not just a to-do app—it’s a personal success system that keeps you ahead of every deadline."
+    ],
     "size": 42,
     "reviews": 1800,
     "ratingAvg": 4.2,
-     "downloads": "1M",
+    "downloads": "1M",
     "ratings": [
       { "name": "1 star", "count": 90 },
       { "name": "2 star", "count": 120 },
@@ -41,11 +48,15 @@
     "title": "FitTrack Pro",
     "companyName": "ActiveZone Ltd.",
     "id": 3,
-    "description": "Track your workouts, calories, and steps with real-time performance analytics.",
+    "description": [
+      "FitTrack Pro is your comprehensive fitness companion built for users who value data-driven health improvement. It connects seamlessly with wearables to track heart rate, steps, calories, and sleep patterns. The app’s analytics dashboard provides real-time performance insights and personalized recommendations. Users can choose from workout plans, guided sessions, and nutrition tips tailored to their goals. Whether you’re training for endurance, strength, or overall wellness, FitTrack Pro adapts dynamically to your progress. With progress charts and milestone achievements, staying consistent becomes easier and more motivating.",
+      "FitTrack Pro combines advanced fitness tracking with a user-first experience. Its AI-driven algorithms analyze workout history to adjust future plans automatically. You can join virtual challenges, compare stats with friends, and gain insights from professional trainers. The intuitive UI makes it easy to log workouts and monitor progress. Integrated health reports allow you to visualize growth trends, while motivational badges celebrate every achievement. From yoga to high-intensity training, FitTrack Pro helps you reach your peak potential safely and effectively.",
+      "FitTrack Pro empowers you to turn everyday activity into measurable progress. The app supports heart-rate-based training, smart calorie tracking, and hydration reminders. With customizable dashboards, users can focus on the metrics that matter most. Syncing with fitness devices ensures seamless performance data collection. FitTrack Pro’s social community offers group challenges and leaderboards to make fitness fun and social. Whether you’re a beginner or an athlete, it simplifies your health journey with actionable insights that push you toward real results."
+    ],
     "size": 65,
     "reviews": 3100,
     "ratingAvg": 4.7,
-     "downloads": "2M",
+    "downloads": "2M",
     "ratings": [
       { "name": "1 star", "count": 100 },
       { "name": "2 star", "count": 80 },
@@ -59,11 +70,15 @@
     "title": "NoteFlow",
     "companyName": "SoftTree Labs",
     "id": 4,
-    "description": "A minimalist note-taking app with markdown support and cloud sync.",
+    "description": [
+      "NoteFlow is the ultimate note-taking app for writers, thinkers, and professionals who crave organization. It combines simplicity with power, offering full Markdown support, tagging, and real-time syncing. You can capture thoughts instantly, organize projects into folders, and share notes securely with collaborators. NoteFlow’s clean interface provides a distraction-free writing space with both dark and light modes. Its auto-save and cloud backup features ensure your ideas are never lost. Whether you’re journaling, studying, or planning, NoteFlow helps you stay focused and creative at every step.",
+      "NoteFlow reimagines productivity through smart documentation. It lets you link ideas, convert notes into checklists, and even turn thoughts into task boards. Integrated search and smart filters help you retrieve notes instantly. Users can collaborate live, comment, and co-edit without conflicts. The app also supports offline writing, syncing updates once you reconnect. Its minimalist design enhances focus, while customizable themes make writing feel personal. With security encryption and version tracking, NoteFlow guarantees your creativity stays private and protected.",
+      "NoteFlow is designed for modern creators who value simplicity and speed. It offers flexible organization tools that adapt to your workflow. You can structure your notebooks, highlight key ideas, and embed images or code snippets effortlessly. The app’s AI assistant summarizes long notes and suggests tags automatically. With keyboard shortcuts, multi-device syncing, and real-time autosave, it delivers a seamless writing experience. Whether brainstorming, scripting, or studying, NoteFlow turns thoughts into structured ideas quickly and beautifully."
+    ],
     "size": 38,
     "reviews": 950,
     "ratingAvg": 4.4,
-     "downloads": "1.2M",
+    "downloads": "1.2M",
     "ratings": [
       { "name": "1 star", "count": 50 },
       { "name": "2 star", "count": 70 },
@@ -73,147 +88,180 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1506765515384-028b60a970df",
+    "image": "https://images.unsplash.com/photo-1511376777868-611b54f68947",
     "title": "MusicVibe",
-    "companyName": "Beatify Inc.",
+    "companyName": "SonicPulse Inc.",
     "id": 5,
-    "description": "Stream millions of songs and create your custom playlists with friends.",
-    "size": 120,
-    "reviews": 6400,
-    "ratingAvg": 4.6,
-     "downloads": "5M",
-    "ratings": [
-      { "name": "1 star", "count": 310 },
-      { "name": "2 star", "count": 250 },
-      { "name": "3 star", "count": 500 },
-      { "name": "4 star", "count": 1100 },
-      { "name": "5 star", "count": 4240 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe",
-    "title": "ShopSmart",
-    "companyName": "DealHunter Ltd.",
-    "id": 6,
-    "description": "Find daily deals and compare prices across multiple online stores easily.",
-    "size": 54,
-    "reviews": 2700,
-    "ratingAvg": 4.1,
-    "downloads": "3M",
-    "ratings": [
-      { "name": "1 star", "count": 200 },
-      { "name": "2 star", "count": 240 },
-      { "name": "3 star", "count": 400 },
-      { "name": "4 star", "count": 720 },
-      { "name": "5 star", "count": 1140 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    "title": "WeatherNow",
-    "companyName": "SkyNet Tech",
-    "id": 7,
-    "description": "Accurate weather forecasts, radar maps, and real-time alerts for your area.",
-    "size": 49,
-    "reviews": 3200,
-    "ratingAvg": 4.3,
-    "downloads": "2.5M",
-    "ratings": [
-      { "name": "1 star", "count": 180 },
-      { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 400 },
-      { "name": "4 star", "count": 700 },
-      { "name": "5 star", "count": 1770 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1517842645767-c639042777db",
-    "title": "LangLearn",
-    "companyName": "EduSmart Global",
-    "id": 8,
-    "description": "Learn languages with interactive lessons, pronunciation tests, and games.",
-    "size": 77,
+    "description": [
+      "MusicVibe is the perfect music streaming app for listeners who want rhythm that matches their lifestyle. It curates personalized playlists based on mood, activity, and listening habits. The AI-powered recommendation engine surfaces hidden gems and global hits alike. You can follow artists, join live listening rooms, and collaborate on playlists with friends. MusicVibe offers high-fidelity streaming, offline playback, and dynamic equalizer controls. Its elegant design and fluid transitions make every session enjoyable. Whether relaxing, studying, or working out, MusicVibe delivers the perfect soundtrack for every moment.",
+      "MusicVibe transforms how you experience music with real-time mood detection and adaptive playlists. Its smart audio engine fine-tunes sound output to match your environment. The app supports immersive 3D audio, artist stories, and live community events. With an ever-growing library and smooth navigation, discovering music becomes intuitive. MusicVibe’s Daily Flow feature refreshes your feed with new tracks every morning. From deep focus to party vibes, it crafts playlists that elevate your emotions and energy effortlessly.",
+      "MusicVibe is built for audiophiles and casual listeners alike. It combines stunning sound quality with seamless usability. The app’s AI learns from your preferences and evolves your library over time. Users can enjoy uninterrupted streaming, create private mixes, and share favorite tracks across platforms. MusicVibe’s sleek interface emphasizes minimalism, while features like lyrics mode and concert updates add depth to your music experience. It’s not just a player—it’s a personal sound companion that grows with your mood and taste."
+    ],
+    "size": 92,
     "reviews": 4100,
     "ratingAvg": 4.8,
-    "downloads": "3.2M",
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 720 },
+      { "name": "5 star", "count": 2990 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+    "title": "EduConnect",
+    "companyName": "BrightLearn Technologies",
+    "id": 6,
+    "description": [
+      "EduConnect bridges the gap between students, teachers, and lifelong learners. It offers interactive video lessons, AI-powered course recommendations, and real-time progress tracking. Teachers can create live classes, share resources, and evaluate student performance using analytics dashboards. Learners can collaborate in study groups, ask questions, and earn verified certificates. With support for multiple languages and offline downloads, EduConnect makes quality education accessible to everyone. It’s a complete ecosystem for modern learning built on engagement, collaboration, and growth.",
+      "EduConnect transforms online learning into a dynamic experience. Its virtual classrooms feature screen sharing, whiteboards, and real-time chat to enhance communication. Students can set personal goals, take quizzes, and receive feedback instantly. The platform’s adaptive AI recommends lessons based on strengths and weaknesses. Teachers can automate grading and schedule reminders for assignments. EduConnect’s intuitive interface ensures seamless navigation, helping users focus on what matters most—learning with purpose and consistency.",
+      "EduConnect is designed for accessible, engaging, and data-driven education. It brings together live teaching, community learning, and self-paced courses in one platform. The app encourages collaboration through peer discussions and mentorship networks. Students can track skill progress, earn badges, and showcase achievements on their profiles. Educators benefit from AI analytics that highlight learning trends and class engagement. EduConnect empowers people to learn, teach, and grow anywhere, anytime—making education truly global."
+    ],
+    "size": 110,
+    "reviews": 2600,
+    "ratingAvg": 4.6,
+    "downloads": "1.8M",
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 260 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1400 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1587574293340-611c0db4f3df",
+    "title": "SafeVault",
+    "companyName": "CyberTrust Labs",
+    "id": 7,
+    "description": [
+      "SafeVault is the trusted security app designed to protect your passwords, files, and private notes with industry-leading encryption. It uses AES-256 protection and biometric authentication to keep your information safe. Users can generate strong passwords, store sensitive data, and monitor breach alerts in real time. SafeVault ensures your information remains accessible only to you through zero-knowledge architecture. Its sleek interface makes managing security simple and efficient, blending power and privacy into one seamless experience.",
+      "SafeVault safeguards digital identities through cutting-edge cryptography. The app automatically scans your stored credentials, identifies weak passwords, and suggests replacements. It supports two-factor authentication, encrypted file sharing, and backup recovery. With instant breach detection, users receive alerts before threats escalate. SafeVault’s secure cloud sync allows access across multiple devices while maintaining total confidentiality. Whether protecting personal data or corporate information, it’s your all-in-one digital fortress against modern cyber threats.",
+      "SafeVault is built for individuals and professionals who take data privacy seriously. The app combines advanced encryption with intuitive usability. You can categorize logins, attach files, and create encrypted notes securely. Its password auditor helps maintain strong security hygiene across all accounts. SafeVault never tracks, sells, or shares user data, ensuring absolute control over your privacy. With fast biometric unlock and offline access, it brings security and convenience together for complete peace of mind."
+    ],
+    "size": 56,
+    "reviews": 1950,
+    "ratingAvg": 4.7,
+    "downloads": "950K",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 480 },
+      { "name": "5 star", "count": 1150 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1494173853739-c21f58b16055",
+    "title": "TravelMate",
+    "companyName": "SkyRoute Innovations",
+    "id": 8,
+    "description": [
+      "TravelMate simplifies travel planning by bringing flights, hotels, and itineraries into one intelligent platform. The AI-powered planner curates personalized trips based on preferences, budget, and travel style. Users can compare prices, access offline maps, and manage bookings seamlessly. The built-in translator and currency converter make international travel hassle-free. With social sharing and live trip tracking, TravelMate turns every journey into a connected experience. It’s your all-in-one digital companion for stress-free adventures.",
+      "TravelMate transforms your travel experience from planning to exploration. Its smart assistant recommends attractions, restaurants, and activities tailored to your interests. The app supports collaborative trip planning, allowing families and friends to coordinate schedules easily. You can track expenses, manage tickets, and access guides even without internet. With built-in reviews and traveler insights, every decision feels informed and personalized. TravelMate helps you explore smarter and experience more with less effort.",
+      "TravelMate is designed for explorers who seek both organization and inspiration. Its dynamic itinerary builder creates balanced travel schedules automatically. Users can discover hidden gems, bookmark destinations, and navigate with GPS-based suggestions. Real-time weather updates, flight alerts, and packing checklists enhance convenience. Whether for business trips or leisure, TravelMate keeps everything organized in one place. It’s not just a travel app—it’s your global guide to effortless exploration and unforgettable memories."
+    ],
+    "size": 98,
+    "reviews": 3400,
+    "ratingAvg": 4.6,
+    "downloads": "2.4M",
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 240 },
+      { "name": "4 star", "count": 740 },
+      { "name": "5 star", "count": 2190 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1581092795360-61b8c4d64d20",
+    "title": "ShopSmart",
+    "companyName": "CommerceHub Solutions",
+    "id": 9,
+    "description": [
+      "ShopSmart is your modern e-commerce companion designed to make shopping simple, secure, and personalized. It compares prices, tracks discounts, and delivers the best deals from top retailers. The app’s AI-driven recommendation system suggests items based on preferences and past purchases. With real-time notifications for price drops, flash sales, and coupons, users never miss a saving opportunity. ShopSmart’s clean interface, smart filters, and one-click checkout make it the perfect solution for online shoppers everywhere.",
+      "ShopSmart transforms online shopping by combining convenience with intelligence. Its advanced algorithm monitors thousands of stores, comparing products for the best value. Users can organize wishlists, follow brands, and receive tailored recommendations. Built-in security ensures safe payments and data protection. With multilingual support and cross-platform syncing, your shopping experience stays consistent across devices. From tech gadgets to fashion essentials, ShopSmart guarantees smarter spending every day.",
+      "ShopSmart empowers you to shop strategically and save effortlessly. The app highlights trending products, authentic reviews, and verified sellers. Users can analyze price history charts and set alerts for specific items. With cashback offers and referral rewards, it makes saving both easy and fun. ShopSmart supports multiple payment methods and provides instant refund assistance when needed. Whether shopping locally or globally, it ensures confidence, convenience, and control in every purchase."
+    ],
+    "size": 72,
+    "reviews": 2900,
+    "ratingAvg": 4.7,
+    "downloads": "2.1M",
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 660 },
+      { "name": "5 star", "count": 1840 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1542744173-05336fcc7ad4",
+    "title": "FinanceWise",
+    "companyName": "SmartWealth Labs",
+    "id": 10,
+    "description": [
+      "FinanceWise is a modern financial management app designed to simplify budgeting and smart spending. It automatically tracks expenses, categorizes transactions, and provides detailed insights into your money habits. With AI-powered forecasting, users can set savings goals, manage debt, and receive personalized recommendations. FinanceWise connects securely with multiple banks, ensuring a complete view of your financial life in one dashboard. Interactive charts and spending alerts make financial decisions easier. Whether you’re saving for travel, education, or investments, FinanceWise keeps your finances clear, controlled, and future-focused.",
+      "FinanceWise transforms personal finance into a guided experience through automation and data visualization. Its intelligent system analyzes your income, spending, and subscriptions to suggest monthly optimization tips. The app’s goal tracker helps you stay motivated while its secure encryption ensures complete data privacy. You can export reports, sync across devices, and receive insights on overspending trends. With features like bill reminders and investment tracking, FinanceWise is perfect for anyone aiming for financial discipline and growth. It’s more than an expense tracker—it’s your digital financial advisor.",
+      "FinanceWise empowers users to take control of their money with clarity and confidence. Its smart categorization identifies spending patterns instantly, while customizable budgets help maintain financial balance. The app’s predictive AI highlights future expenses and potential savings. Users can monitor investments, create joint budgets, and visualize long-term goals. FinanceWise’s sleek interface and easy navigation make finance management approachable for all ages. Whether managing household costs or planning a business budget, it turns financial organization into a seamless, stress-free process."
+    ],
+    "size": 61,
+    "reviews": 1750,
+    "ratingAvg": 4.5,
+    "downloads": "1.1M",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 580 },
+      { "name": "5 star", "count": 810 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1581091012184-5c1c6f5059af",
+    "title": "MediSync",
+    "companyName": "HealthBridge Technologies",
+    "id": 11,
+    "description": [
+      "MediSync connects patients, doctors, and pharmacies through a secure digital ecosystem. The app allows users to book appointments, access prescriptions, and receive health reminders in one place. Its AI-driven health tracker records vitals like blood pressure, glucose levels, and medication schedules. Doctors can monitor patient progress remotely and share reports instantly. With encrypted data storage and secure login, MediSync prioritizes safety and confidentiality. It’s a complete solution for managing personal and family health effortlessly.",
+      "MediSync simplifies healthcare management with real-time communication tools and intelligent data syncing. Users can upload medical records, view lab reports, and consult certified doctors online. The app integrates with wearable devices to track fitness metrics and provide personalized wellness recommendations. Its reminder system ensures no appointment or medication is missed. MediSync supports multi-user profiles for families and offers 24/7 support for emergencies. It redefines healthcare convenience by putting control back in your hands.",
+      "MediSync is designed for modern healthcare accessibility and efficiency. Its advanced dashboard provides a timeline view of your medical history, simplifying doctor visits. You can compare prescriptions, request refills, and manage insurance documents securely. The app uses AI insights to detect irregular health patterns early and alert users. With multi-language support and offline access, MediSync ensures uninterrupted care for everyone. Whether managing chronic conditions or preventive health, it helps users stay proactive and informed."
+    ],
+    "size": 105,
+    "reviews": 2350,
+    "ratingAvg": 4.6,
+    "downloads": "1.7M",
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 620 },
+      { "name": "5 star", "count": 1310 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
+    "title": "HomeEase",
+    "companyName": "UrbanNest Solutions",
+    "id": 12,
+    "description": [
+      "HomeEase is your smart home companion designed to simplify everyday living. It connects all your smart devices—lights, thermostats, cameras, and more—into one intuitive dashboard. Users can automate routines, monitor energy usage, and control devices remotely through voice commands or the app. HomeEase ensures seamless integration with Alexa, Google Home, and Apple HomeKit. Its clean interface, real-time notifications, and security-first design make managing your home effortless and efficient. It’s smart living made truly simple.",
+      "HomeEase transforms your living space into a connected, intelligent environment. The app lets you schedule appliance operations, customize lighting moods, and monitor home security on the go. AI-based automation learns your habits, adjusting temperature and lighting automatically. With motion alerts and camera access, you can stay informed even when away. HomeEase prioritizes privacy with end-to-end encryption and secure local storage. It combines comfort, safety, and sustainability into one elegant system for modern homes.",
+      "HomeEase is built to make home automation accessible for everyone. Its setup process takes minutes, connecting new devices with guided pairing. You can create smart scenes like ‘Movie Night’ or ‘Good Morning’ with a single tap. The app also offers detailed energy reports to help reduce electricity bills. With multi-user control and cross-device syncing, HomeEase ensures every family member can participate in smart living. It’s the ultimate tool for a connected, convenient, and energy-efficient home experience."
+    ],
+    "size": 94,
+    "reviews": 3000,
+    "ratingAvg": 4.8,
+    "downloads": "2.9M",
     "ratings": [
       { "name": "1 star", "count": 100 },
       { "name": "2 star", "count": 70 },
       { "name": "3 star", "count": 190 },
-      { "name": "4 star", "count": 500 },
-      { "name": "5 star", "count": 3240 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1523475496153-3e23b2575c70",
-    "title": "TravelMate",
-    "companyName": "GlobalGo Technologies",
-    "id": 9,
-    "description": "Plan trips, book hotels, and explore destinations with AI-based suggestions.",
-    "size": 90,
-    "reviews": 2200,
-    "ratingAvg": 4.5,
-     "downloads": "2.5M",
-    "ratings": [
-      { "name": "1 star", "count": 130 },
-      { "name": "2 star", "count": 110 },
-      { "name": "3 star", "count": 260 },
-      { "name": "4 star", "count": 580 },
-      { "name": "5 star", "count": 1120 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1500534314209-a25db9f44c3a",
-    "title": "MindEase",
-    "companyName": "Calmify Co.",
-    "id": 10,
-    "description": "Meditation and relaxation app with guided sessions and sleep stories.",
-    "size": 61,
-    "reviews": 3700,
-    "ratingAvg": 4.9,
-    "downloads": "1.5M",
-    "ratings": [
-      { "name": "1 star", "count": 80 },
-      { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 3000 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1481277542470-605612bd2d61",
-    "title": "FinanceHero",
-    "companyName": "MoneyMind Ltd.",
-    "id": 11,
-    "description": "Track expenses, set budgets, and analyze your spending patterns easily.",
-    "size": 58,
-    "reviews": 1950,
-    "ratingAvg": 4.3,
-    "downloads": "4.5M",
-    "ratings": [
-      { "name": "1 star", "count": 120 },
-      { "name": "2 star", "count": 140 },
-      { "name": "3 star", "count": 280 },
-      { "name": "4 star", "count": 500 },
-      { "name": "5 star", "count": 910 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1509395176047-4a66953fd231",
-    "title": "CodeCraft",
-    "companyName": "DevBoosters",
-    "id": 12,
-    "description": "A coding practice platform with challenges, projects, and leaderboard rankings.",
-    "size": 73,
-    "reviews": 5000,
-    "ratingAvg": 4.9,
-    "downloads": "2M",
-    "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 90 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 700 },
-      { "name": "5 star", "count": 3910 }
+      { "name": "4 star", "count": 560 },
+      { "name": "5 star", "count": 2080 }
     ]
   }
+  
 ]
