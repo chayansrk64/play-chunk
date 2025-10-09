@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import TrendingAppsCard from '../TrendingAppsCard/TrendingAppsCard';
 import useTrendingApps from '../../hooks/useTrendingApps';
 import Loading from '../../components/Loading/Loading';
+import searchError from '../../assets/App-Error.png'
 
 const AllApplication = () => {
     const [search, setSearch] = useState('')
@@ -59,8 +60,9 @@ const AllApplication = () => {
                 filteredApps.length > 0 ? ( 
                     filteredApps.map(app => <TrendingAppsCard app={app} key={app.id}></TrendingAppsCard>)
                 ) : (
-                        <div className='col-span-full text-center py-8'>
-                            <p className='text-2xl text-[#627382]'>No apps found!</p>
+                        <div className='col-span-full text-center py-8 flex flex-col items-center gap-8'>
+                            <p className='text-3xl text-[#627382] font-semibold '>No apps found!</p>
+                            <img src={searchError} alt="" />
                         </div>
                     )
                }

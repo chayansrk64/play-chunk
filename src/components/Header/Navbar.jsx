@@ -15,7 +15,7 @@ const Navbar = () => {
         <NavLink to='/apps'>
         {({isActive}) => (<li className={isActive ? "bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-semibold me-6" : "text-black-500 font-semibold me-6"}>Apps</li>)}
         </NavLink>
-        <NavLink to='/installation'>
+        <NavLink to='/installations'>
         {({isActive}) => (<li className={isActive ? "bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-semibold me-6" : "text-black-500 font-semibold me-0"}>Installation</li>)}
         </NavLink>
         

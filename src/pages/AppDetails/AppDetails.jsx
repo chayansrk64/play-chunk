@@ -1,13 +1,12 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import useTrendingApps from '../../hooks/useTrendingApps';
 import { useParams } from 'react-router';
 import downloads from '../../assets/icon-downloads.png'
 import ratings from '../../assets/icon-ratings.png'
 import reviews from '../../assets/icon-review.png'
-
 import { ToastContainer, toast } from 'react-toastify';
-
 import Loading from '../../components/Loading/Loading';
+import {setToLocalStorage, getFromLocalStorage} from '../../utilities/localStorage'
 
 import {
   ComposedChart,
@@ -65,9 +64,13 @@ const AppDetails = () => {
     // console.log(appData);
 
     
-    const handleInstallBtn = e => {
+    const handleInstallBtn = (app) => {
         setInstall(true)
         toast("App Installed!");
+
+        setToLocalStorage(app)
+        
+
 
     }
      
@@ -111,7 +114,18 @@ const AppDetails = () => {
                     </div>
                    </div>
 
-                   <button onClick={() => handleInstallBtn()} className='btn bg-green-500 text-white text-lg'>{install ? "Installed" : `Install Now (${appData.size}) MB`} </button>
+                   {/* <button onClick={() => handleInstallBtn(appData)} className='btn bg-green-500 text-white text-lg'>{install ? "Installed" : `Install Now (${appData.size}) MB`} </button> */}
+
+                <button
+                    onClick={() => handleInstallBtn(appData)}
+                    className={`btn text-white text-lg ${install ? 'bg-gray-500 cursor-not-allowed' : 'bg-green-500'}`}
+                    disabled={install}
+                    >
+                    {install ? "Installed" : `Install Now (${appData.size}) MB`}
+                </button>
+
+
+
                     <ToastContainer />
 
                 </div>
