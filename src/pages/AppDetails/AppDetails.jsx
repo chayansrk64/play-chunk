@@ -7,6 +7,54 @@ import reviews from '../../assets/icon-review.png'
 
 import Loading from '../../components/Loading/Loading';
 
+import {
+  ComposedChart,
+  Line,
+  Area,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+  ResponsiveContainer,
+} from 'recharts';
+
+
+const data = [
+    {
+    name: 'Star 5',
+    pv: 1700,
+    
+  },
+  {
+    name: 'Star 4',
+    pv: 1400,
+  },
+  {
+    name: 'Star 3',
+    pv: 1100,
+  },
+   {
+    name: 'Star 2',
+    pv: 800,
+  },
+   {
+    name: 'Star 1',
+    pv: 500,
+  },
+ 
+ 
+  
+  
+  
+];
+
+
+
+ 
+ 
+
 const AppDetails = () => {
     const {trendingApps, loader} = useTrendingApps()
     // console.log(trendingApps);
@@ -15,6 +63,8 @@ const AppDetails = () => {
     const appData = trendingApps.find(app => app.id === parseInt(id))
     console.log(appData);
 
+    
+     
 
     if(loader){
         return <Loading></Loading>
@@ -22,6 +72,7 @@ const AppDetails = () => {
     
     return (
         <div className=''>
+
              <div className='max-w-[1440px] mx-auto flex items-center gap-5 lg:gap-10 py-10'>
                 {/* image */}
                 <div>
@@ -59,6 +110,38 @@ const AppDetails = () => {
                 </div>
             </div>
             <div className="divider max-w-[1440px] mx-auto"></div>
+
+
+            {/* chart */}
+
+            <div className='w-[1240px] h-[500px] mx-auto'>
+
+                <h3 className='text-3xl font-semibold'>Ratings</h3>
+
+                <ResponsiveContainer width="100%" height="100%">
+        <ComposedChart
+          layout="vertical"
+          width={500}
+          height={400}
+          data={data}
+          
+        >
+          <CartesianGrid stroke="#f5f5f5" />
+          <XAxis type="number" />
+          <YAxis dataKey="name" type="category" scale="band" />
+          <Tooltip />
+         
+          <Area dataKey="amt" fill="#8884d8" stroke="#8884d8" />
+          <Bar dataKey="pv" barSize={20} fill="#413ea0" />
+          <Line dataKey="uv" stroke="#ff7300" />
+        </ComposedChart>
+      </ResponsiveContainer>
+ 
+            </div>
+        
+ 
+
+
         </div>
     );
 };
