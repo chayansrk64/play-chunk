@@ -35,7 +35,7 @@ const Navbar = () => {
         {links}
       </ul>
     </div>
-    <Link to="/" className=" text-xl font-semibold flex items-center"> <img className='w-[40px]' src={logo} alt="" /> <span>Play Chunk</span></Link>
+    <Link to="/" className=" text-xl font-semibold flex items-center"> <img className='w-[40px]' src={logo} alt="" /> <span className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>Play Chunk</span></Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">

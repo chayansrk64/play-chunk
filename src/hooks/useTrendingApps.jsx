@@ -5,7 +5,7 @@ const useTrendingApps = () => {
     const [loader, setLoader] = useState(true)
 
     useEffect(() => {
-        fetch('./trendingapps.json')
+        fetch('/trendingapps.json')
         .then(res => res.json())
         .then(data => {
             setTrendingApps(data)
