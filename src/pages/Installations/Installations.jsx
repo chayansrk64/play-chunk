@@ -28,6 +28,17 @@ const Installations = () => {
             });
     }
 
+    const handleSortHighToLow = apps => {
+        const sorted = [...apps].sort((a, b) => b.downloads - a.downloads)
+        setApps(sorted)
+    }
+
+    const handleSortLowToHigh = apps => {
+        const sorted = [...apps].sort((a, b) => a.downloads - b.downloads)
+        setApps(sorted)
+    }
+
+    
 
      if(loading){
         return <Loading></Loading>
@@ -45,8 +56,8 @@ const Installations = () => {
                 <details className="dropdown">
                     <summary className="btn m-1">Sort Downloads</summary>
                     <ul className="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
-                        <li><a>High-Low</a></li>
-                        <li><a>Low-High</a></li>
+                        <li><a onClick={() => handleSortHighToLow(apps)}>High-Low</a></li>
+                        <li><a onClick={() => handleSortLowToHigh(apps)}>Low-High</a></li>
                     </ul>
                 </details>
             </div>

@@ -3,7 +3,7 @@ import { Download } from 'lucide-react';
 import { Star } from 'lucide-react';
 
 const SingleApp = ({app, handleUninstall}) => {
-    console.log(app);
+    // console.log(app);
 
     return (
         <div className=' max-w-[1440px] mx-auto'>
