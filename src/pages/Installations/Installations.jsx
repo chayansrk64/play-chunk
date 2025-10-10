@@ -3,7 +3,7 @@ import { getFromLocalStorage, removeFromLocalStorage } from '../../utilities/loc
 import SingleApp from './SingleApp';
 import Loading from '../../components/Loading/Loading';
 import Swal from 'sweetalert2';
-
+import searchError from '../../assets/App-Error.png'
 
 const Installations = () => {
     const [apps, setApps] = useState([])
@@ -63,8 +63,19 @@ const Installations = () => {
             </div>
             <div>
                 {
-                    apps.map(app => <SingleApp app={app} key={app.id} handleUninstall={handleUninstall}></SingleApp>)
+                    apps.length === 0 ?  (
+                                            <div className='col-span-full text-center py-8 flex flex-col items-center gap-8'>
+                                                <p className='text-3xl text-[#627382] font-semibold '>No apps found!</p>
+                                                <img src={searchError} alt="" />
+                                            </div>
+                                        ) :  (
+                                                apps.map(app => <SingleApp app={app} key={app.id} handleUninstall={handleUninstall}></SingleApp>)
+                                        )
                 }
+               
+                {/* {
+                    apps.map(app => <SingleApp app={app} key={app.id} handleUninstall={handleUninstall}></SingleApp>)
+                } */}
             </div>
         </div>
     );

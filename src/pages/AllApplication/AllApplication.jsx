@@ -39,7 +39,7 @@ const AllApplication = () => {
     
 
     return (
-        <div>
+        <div className='mb-10'>
             <div className='text-center'>
                 <h3 className='text-3xl font-bold py-3 mt-6'>Our All Application</h3>
                 <p className='pb-4 mb-4 text-[#627382]'>Explore All Apps on the Market developed by us. We code for Millions</p>
