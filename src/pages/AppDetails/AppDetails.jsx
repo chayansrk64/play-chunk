@@ -4,9 +4,8 @@ import { useParams } from 'react-router';
 import downloads from '../../assets/icon-downloads.png'
 import ratings from '../../assets/icon-ratings.png'
 import reviews from '../../assets/icon-review.png'
-import { ToastContainer, toast } from 'react-toastify';
 import Loading from '../../components/Loading/Loading';
-import {setToLocalStorage, getFromLocalStorage} from '../../utilities/localStorage'
+import {setToLocalStorage} from '../../utilities/localStorage'
 
 import {
   ComposedChart,
@@ -20,39 +19,9 @@ import {
   Legend,
   ResponsiveContainer,
 } from 'recharts';
+import Swal from 'sweetalert2';
 
 
-const data = [
-    {
-    name: 'Star 5',
-    pv: 1700,
-    
-  },
-  {
-    name: 'Star 4',
-    pv: 1400,
-  },
-  {
-    name: 'Star 3',
-    pv: 1100,
-  },
-   {
-    name: 'Star 2',
-    pv: 800,
-  },
-   {
-    name: 'Star 1',
-    pv: 500,
-  },
- 
- 
-  
-  
-  
-];
-
-
- 
 
 const AppDetails = () => {
     const [install, setInstall] = useState(false)
@@ -61,12 +30,19 @@ const AppDetails = () => {
     const {id} = useParams()
 
     const appData = trendingApps.find(app => app.id === parseInt(id))
-    // console.log(appData);
+    console.log(appData);
 
+    const chartDataReverse = appData?.ratings;
+
+    const chartData = chartDataReverse?.slice().reverse()
     
     const handleInstallBtn = (app) => {
         setInstall(true)
-        toast("App Installed!");
+        Swal.fire({
+        title: "App Installed!",
+        icon: "success",
+        draggable: true
+      });
 
         setToLocalStorage(app)
         
@@ -126,7 +102,7 @@ const AppDetails = () => {
 
 
 
-                    <ToastContainer />
+              
 
                 </div>
             </div>
@@ -134,34 +110,34 @@ const AppDetails = () => {
 
 
             {/* chart */}
+          <div className='max-w-[1240px]'>
+            <div className=' h-[400px] lg:ms-[80px]'>
 
-            <div className='max-w-[1240px] h-[500px] mx-auto'>
-
-                <h3 className='text-3xl font-semibold'>Ratings</h3>
+        <h3 className='text-3xl font-semibold mb-4'>Ratings</h3>
 
         <ResponsiveContainer width="100%" height="100%">
         <ComposedChart
           layout="vertical"
           width={500}
           height={400}
-          data={data}
+          data={chartData}
           
         >
           <CartesianGrid stroke="#f5f5f5" />
-          <XAxis type="number" />
-          <YAxis dataKey="name" type="category" scale="band" />
+          <XAxis type="number" axisLine={false} tickLine={false} />
+          <YAxis dataKey="name" type="category" scale="band" axisLine={false} tickLine={false} />
           <Tooltip />
          
-          <Area dataKey="amt" fill="#8884d8" stroke="#8884d8" />
-          <Bar dataKey="pv" barSize={20} fill="#ff8811" />
-          <Line dataKey="uv" stroke="#ff7300" />
+          <Bar dataKey="count" barSize={20} fill="#ff8811" />
+           
         </ComposedChart>
-      </ResponsiveContainer>
+        </ResponsiveContainer>
  
             </div>
+          </div>
 
 
-
+      {/* Description */}
             <div className='max-w-[1440px] mx-auto lg:gap-10 py-10 mt-12 '>
                 <h3 className='text-xl font-semibold mb-4 px-4 lg:px-0'>Description</h3>
                 {

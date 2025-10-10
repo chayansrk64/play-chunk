@@ -8,18 +8,18 @@ const Subscribers = () => {
                 <div className='flex flex-col md:flex-row items-center justify-center py-4 gap-5 lg:gap-20'>
                     <div>
                     <p>Total Downloads</p>
-                    <h2 className='text-6xl py-4 font-bold'>29.6M</h2>
-                    <p>21% more than last month</p>
+                    <h2 className='text-6xl py-4 font-bold'>25.3M</h2>
+                    <p>35% more than last month</p>
                 </div>
                 <div>
                     <p>Total Reviews</p>
-                    <h2 className='text-6xl py-4 font-bold'>906k</h2>
-                    <p>46% more than last month</p>
+                    <h2 className='text-6xl py-4 font-bold'>500k</h2>
+                    <p>27% more than last month</p>
                 </div>
                 <div>
                     <p>Active Apps</p>
-                    <h2 className='text-6xl py-4 font-bold'>132+</h2>
-                    <p>31 more will launch</p>
+                    <h2 className='text-6xl py-4 font-bold'>312+</h2>
+                    <p>18 more will launch</p>
                 </div>
                 </div>
             </div>
