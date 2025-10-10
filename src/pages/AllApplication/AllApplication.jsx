@@ -8,18 +8,27 @@ const AllApplication = () => {
     const [search, setSearch] = useState('')
     const [filteredApps, setFilteredApps] = useState([])
     const {trendingApps, loader} = useTrendingApps()
+    const [searchLoading, setSearchLoading] = useState(false)
 //    console.log(trendingApps);
 
   
    useEffect(() => {
-    if (search.trim() === '') {
-      setFilteredApps(trendingApps);
-    } else {
-      const results = trendingApps.filter(app =>
-        app.title.toLowerCase().includes(search.toLowerCase())
-      );
-      setFilteredApps(results);
-    }
+    setSearchLoading(true)
+    const timeOut = setTimeout(() => {
+        
+        if (search.trim() === '') {
+          setFilteredApps(trendingApps);
+        } else {
+          const results = trendingApps.filter(app =>
+            app.title.toLowerCase().includes(search.toLowerCase())
+          );
+          setFilteredApps(results);
+        }
+        setSearchLoading(false)
+    }, 300)
+
+    return () => clearTimeout(timeOut)
+    
   }, [search, trendingApps]);
 
 
@@ -56,7 +65,19 @@ const AllApplication = () => {
             </div>
             {/* all cards */}
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 max-w-[1440px] mx-auto'>
-               {
+                {
+                    searchLoading ? (
+                        <Loading></Loading>
+                    ) : filteredApps.length > 0 ? ( 
+                    filteredApps.map(app => <TrendingAppsCard app={app} key={app.id}></TrendingAppsCard>)
+                ) : (
+                        <div className='col-span-full text-center py-8 flex flex-col items-center gap-8'>
+                            <p className='text-3xl text-[#627382] font-semibold '>No apps found!</p>
+                            <img src={searchError} alt="" />
+                        </div>
+                    )
+                }
+               {/* { 
                 filteredApps.length > 0 ? ( 
                     filteredApps.map(app => <TrendingAppsCard app={app} key={app.id}></TrendingAppsCard>)
                 ) : (
@@ -65,7 +86,7 @@ const AllApplication = () => {
                             <img src={searchError} alt="" />
                         </div>
                     )
-               }
+               } */}
             </div>
 
             </div>
