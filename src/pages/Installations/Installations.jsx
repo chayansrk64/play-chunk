@@ -1,13 +1,24 @@
 import React, { useEffect, useState } from 'react';
 import { getFromLocalStorage } from '../../utilities/localStorage';
 import SingleApp from './SingleApp';
+import Loading from '../../components/Loading/Loading';
+
 
 const Installations = () => {
     const [apps, setApps] = useState([])
+    const [loading, setLoading] = useState(true)
+
     useEffect(() => {
         const fromLocalStorage = getFromLocalStorage()
         setApps(fromLocalStorage);
+        setLoading(false)
     }, [])
+
+
+     if(loading){
+        return <Loading></Loading>
+     }
+
     return (
         <div>
             <div className='flex flex-col justify-center items-center'>

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import useTrendingApps from '../../hooks/useTrendingApps';
 import { useParams } from 'react-router';
 import downloads from '../../assets/icon-downloads.png'
