@@ -2,7 +2,7 @@ import React from 'react';
 import { Download } from 'lucide-react';
 import { Star } from 'lucide-react';
 
-const SingleApp = ({app}) => {
+const SingleApp = ({app, handleUninstall}) => {
     console.log(app);
 
     return (
@@ -13,7 +13,7 @@ const SingleApp = ({app}) => {
                     <div className="flex justify-between items-center px-4">
                         <div className="flex items-center gap-3 py-2">
                             <div>
-                                <img className="h-[80px] rounded-lg" src={app.image} alt="" />
+                                <img className="w-[80px] h-[80px] rounded-lg" src={app.image} alt="" />
                             </div>
                             <div className='flex flex-col justify-between'>
                                 <h3 className='text-xl font-semibold ms-4'>{app.title}</h3>
@@ -25,7 +25,7 @@ const SingleApp = ({app}) => {
                             </div>
                             
                         </div>
-                        <div><button className="btn bg-[#00d390] text-white">Uninstall</button></div>
+                        <div><button onClick={() => handleUninstall(app.id)} className="btn bg-[#00d390] text-white">Uninstall</button></div>
                     </div>
                 </div>
             

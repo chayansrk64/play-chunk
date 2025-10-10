@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { getFromLocalStorage } from '../../utilities/localStorage';
+import { getFromLocalStorage, removeFromLocalStorage } from '../../utilities/localStorage';
 import SingleApp from './SingleApp';
 import Loading from '../../components/Loading/Loading';
+import Swal from 'sweetalert2';
 
 
 const Installations = () => {
@@ -13,6 +14,19 @@ const Installations = () => {
         setApps(fromLocalStorage);
         setLoading(false)
     }, [])
+
+
+    const handleUninstall = id => {
+        const updatedApps = apps.filter(app => app.id !== id)
+        setApps(updatedApps)
+
+        removeFromLocalStorage(id)
+        Swal.fire({
+            title: "Uninstall Successful!",
+            icon: "success",
+            draggable: true
+            });
+    }
 
 
      if(loading){
@@ -38,7 +52,7 @@ const Installations = () => {
             </div>
             <div>
                 {
-                    apps.map(app => <SingleApp app={app} key={app.id}></SingleApp>)
+                    apps.map(app => <SingleApp app={app} key={app.id} handleUninstall={handleUninstall}></SingleApp>)
                 }
             </div>
         </div>

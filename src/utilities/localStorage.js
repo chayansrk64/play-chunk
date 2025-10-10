@@ -24,4 +24,14 @@ const setToLocalStorage = (app) => {
     console.log("saved to localstorage");
 }
 
-export {getFromLocalStorage, setToLocalStorage}
+const removeFromLocalStorage = (id) => {
+
+    const savedApp = localStorage.getItem('appData')
+    if(savedApp){
+        const parsedApp = JSON.parse(savedApp)
+        const filteredApp = parsedApp.filter(app => app.id !== id)
+        localStorage.setItem('appData', JSON.stringify(filteredApp))
+    }
+}
+
+export {getFromLocalStorage, setToLocalStorage, removeFromLocalStorage}
