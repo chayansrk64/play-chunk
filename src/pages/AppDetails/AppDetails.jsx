@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import useTrendingApps from '../../hooks/useTrendingApps';
 import { useParams } from 'react-router';
 import downloads from '../../assets/icon-downloads.png'
@@ -28,6 +28,15 @@ const AppDetails = () => {
     const {trendingApps, loader} = useTrendingApps()
     // console.log(trendingApps);
     const {id} = useParams()
+
+    useEffect(() => {
+    const installedApps = JSON.parse(localStorage.getItem('appData')) || [];
+    const isInstalled = installedApps.some(app => app.id === parseInt(id));
+    if (isInstalled) {
+      setInstall(true);
+    }
+  }, [id]);
+
 
     const appData = trendingApps.find(app => app.id === parseInt(id))
     console.log(appData);
