@@ -27,4 +27,4 @@ User can explore all the apps and some interactions with apps:
 
 ## Visit The App
 
-=> `[Live Link: ]( https://musical-croissant-eaca47.netlify.app/ )` 
+=> [Live Link: ]( https://musical-croissant-eaca47.netlify.app/ )

@@ -39,7 +39,7 @@ const AppDetails = () => {
 
 
     const appData = trendingApps.find(app => app.id === parseInt(id))
-    console.log(appData);
+    // console.log(appData);
 
     const chartDataReverse = appData?.ratings;
 
