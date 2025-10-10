@@ -38,7 +38,7 @@ const Installations = () => {
         setApps(sorted)
     }
 
-    
+
 
      if(loading){
         return <Loading></Loading>
@@ -68,6 +68,6 @@ const Installations = () => {
             </div>
         </div>
     );
-};
+};  
 
 export default Installations;

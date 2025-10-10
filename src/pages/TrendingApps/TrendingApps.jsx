@@ -9,7 +9,7 @@ const TrendingApps = () => {
 
     const { trendingApps, loader } = useTrendingApps()
     // console.log(trendingApps);
-
+    
     if(loader){
         return <Loading></Loading>
     }
